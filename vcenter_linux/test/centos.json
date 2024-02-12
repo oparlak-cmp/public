@@ -1,0 +1,65 @@
+{
+    "any_group_can_deploy": true,
+    "auto_historical_resources": false,
+    "blueprint_image": null,
+    "deployment_items": [
+        {
+            "all_environments_enabled": false,
+            "allowed_os_families": [
+                "CentOS"
+            ],
+            "applications": null,
+            "deploy_seq": 1,
+            "description": "",
+            "environment_selection_orchestration": null,
+            "execute_in_parallel": false,
+            "hostname_template": "",
+            "id": "BDI-0fiueu1d",
+            "name": "Cent0S7_sshd_template",
+            "os_build": {
+                "href": "/api/v3/cmp/osBuilds/OSB-g3k41vuo/",
+                "title": "Cent0S7_sshd_template"
+            },
+            "restrict_applications": false,
+            "show_on_order_form": false,
+            "tier_type": "server"
+        },
+        {
+            "action_name": "SSH Public Key",
+            "continue_on_failure": false,
+            "deploy_seq": 2,
+            "description": null,
+            "enabled": true,
+            "execute_in_parallel": false,
+            "id": "BDI-kkrry0wn",
+            "name": "SSH Public Key",
+            "run_on_scale_up": true,
+            "show_on_order_form": false,
+            "tier_type": "script"
+        }
+    ],
+    "description": "",
+    "favorited": false,
+    "id": "BP-794ib6rk",
+    "is_manageable": true,
+    "is_orderable": true,
+    "labels": [],
+    "last_updated": "2024-01-31",
+    "management_actions": [],
+    "maximum_version_required": "",
+    "minimum_version_required": "8.6",
+    "name": "Centos",
+    "resource_name_template": null,
+    "resource_type": {
+        "icon": "",
+        "id": "RT-xlnak6n2",
+        "label": "Service",
+        "lifecycle": "ACTIVE",
+        "list_view_columns": [],
+        "name": "service",
+        "plural_label": null
+    },
+    "sequence": 0,
+    "show_recipient_field_on_order_form": false,
+    "teardown_items": []
+}
